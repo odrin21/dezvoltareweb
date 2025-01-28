@@ -7,13 +7,14 @@
     <meta name="description" content="TOP Filme vizionate în Republica Moldova, FILMIX" />
     <meta name="keywords" content="Filme, top, filmix, Moldova, Chișinau" />
     <meta name="author" content="FILMIX" />
-    <meta name="title" content="FILMIX - Top filme"/>
+    <meta name="title" content="FILMIX - Top filme" />
 
-    <meta property="og:title" content="FILMIX - Vezi topul filmelor"/>
-    <meta property="og:description" content="Top 10 filme vizionate in Moldova"/>
-    <meta property="og:image" content="https://www.tvbox.one/wp-content/uploads/2018/11/filmix.jpg"/>
+    <meta property="og:title" content="FILMIX - Vezi topul filmelor" />
+    <meta property="og:description" content="Top 10 filme vizionate in Moldova" />
+    <meta property="og:image" content="https://www.tvbox.one/wp-content/uploads/2018/11/filmix.jpg" />
 
-    <link rel="icon" href="../images/icon.png"/>
+    <link rel="icon" href="../images/icon.png" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body bgcolor="ededed">
@@ -29,29 +30,49 @@
 
     <hr />
 
-    <center>
-        <h1>📞<font color="#44a6a6">Contacte</font></h1>
 
-        <b>Adresa:</b>mun. Chsiniau, Str. Studentilor 9/11
-        <br/><br/>
-        <b>Telefon:</b><a href="tel:+37378000001">+373 780 000 01</a>
-        <br/><br/>
-        <b>E-mail:</b><a href="mailto:filmix@gmail.com">filmix@gmail.com</a>
-        <br/><br/>
-        <b>Program:</b>Lu-Vi. 09:00 - 18:00
+    <h1>📞Contacte
+    </h1>
 
-    </center>
+    <b>Adresa:</b>mun. Chsiniau, Str. Studentilor 9/11
+    <br /><br />
+    <b>Telefon:</b><a href="tel:+37378000001">+373 780 000 01</a>
+    <br /><br />
+    <b>E-mail:</b><a href="mailto:filmix@gmail.com">filmix@gmail.com</a>
+    <br /><br />
+    <b>Program:</b>Lu-Vi. 09:00 - 18:00
 
-    <br/>
-    <hr/>
 
-    
 
-    <center>
+    <br />
+    <hr />
+
+    <form method="post" action="https://sheetdb.io/api/v1/j8ip5jiwg3o3e" autocomplete="on">
+        <fieldset>
+            <legend>Datele Contului</legend>
+            <label for="film">Denumirea filmului</label>
+            <br />
+            <input name="data[film]" required type="text" id="film" />
+            <br /><br />
+            <label for="link">Link trailer</label>
+            <br />
+            <input name="data[link]" required type="text" id="link" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Scurta descriere</legend>
+            <br />
+            <textarea name="data[descriere]" placeholder="Culege mesajul" rows="7" cols="25" required></textarea>
+        </fieldset>
+        <br />
+        <input type="submit" value="Transmite" />
+    </form>
+
+
+
     <h4>© FILMIX-Jentimir Odrin - 2025</h4>
-    </center>
 
-    
+
 
 </body>
 

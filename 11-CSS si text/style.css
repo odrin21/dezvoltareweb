@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline dotted blue 5px;
+    /*dotted, dashed, solid, double*/
+
+    text-transform: uppercase;
+    /* uppercase, lowercase, capitalize */
+    letter-spacing: 2px;
+    text-shadow: 4px 2px 5px blue;
+    /* 4x-> dreapta se misca, 2px->in jos se misca, 5px-> cu cat se blureaza  */
+
+    font-style: italic;
+    font-weight: bold;
+    /* 200,400 -> cat de gros este  */
+    font-size: 30px;
+
+    font-family: 'Rubik';
+}
+
+p {
+    color: #0493c7b6;
+    text-align: justify;
+
+    text-indent: 20px;
+    /* alineat, spata in fata la text, valoarea doar in px */
+    letter-spacing: 1px;
+    line-height: 120px;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    font-family: 'Onest';
+}

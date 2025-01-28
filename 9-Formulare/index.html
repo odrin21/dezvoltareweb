@@ -12,12 +12,12 @@
     <!--autocomplete="on/off"-->
     <form>
         <label for="nume">Nume Prenume</label> <br/>
-        <input type="text" id="nume" required autocomplete="on"/><!--placeholder="Nume Prenume"-->
+        <input value="Ion Munteanu" size="10" type="text" id="nume" required autocomplete="on"/><!--placeholder="Nume Prenume"-->
 
         <br /><br />
 
         <label for="parola">Parola</label> <br/>
-        <input type="password" id="parola" required autocomplete="on"/>
+        <input maxlength="12" minlength="3" type="password" id="parola" required autocomplete="on"/>
 
         <br /><br />
         <label for="zi">Ziua de nastere</label>
@@ -25,6 +25,16 @@
 
         <br /><br />
 
+        <label>Alege treapta de studii</label>
+        <br/>
+        <select>
+            <option>Gimnaziu</option>
+            <option selected>Liceu</option>
+            <option>Universitate (Licenta)</option>
+        </select>
+
+        <br/><br/>
+        
         <input type="checkbox" required/>Accept regulile site-ului
 
         <br /><br />
@@ -48,7 +58,6 @@
         <input type="submit" value="Transmite"/>
 
         <br/><br/>
-
 
     </form>
 

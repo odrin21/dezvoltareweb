@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formular de inregistrare</title>
+</head>
+
+<body>
+    <form method="post" action="https://sheetdb.io/api/v1/hqeibegpmr5ps" autocomplete="on">
+        <fieldset>
+            <legend>Date contului</legend>
+            <label for="username">Username</label>
+            <br />
+            <input name="data[username]" id="username" required placeholder="Username" type="text" />
+            <br /><br />
+            <label for="email">Email</label>
+            <br />
+            <input name="data[email]" id="email" placeholder="Email" required type="email" />
+            <br /><br />
+            <label for="parola">Parola</label>
+            <br />
+            <input name="data[parola]" maxlength="12" minlength="4" id="parola" placeholder="Parola" required type="password" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Date personale</legend>
+            <label for="nume">Nume Prenume</label>
+            <br />
+            <input name="data[nume]"type="text" placeholder="Nume Prenume" required id="nume" />
+            <br /><br />
+            <label for="adresa">Adresa</label>
+            <br />
+            <input name="data[adresa]" id="adresa" placeholder="Adresa" required type="Adresa" />
+            <br /><br />
+            <label for="reguli">Sunt de acord cu regulile site-ului</label>
+            <input id="reguli" required type="checkbox" />
+            <br /><br />
+            <label>Tara</label>
+            <select name="data[tara]">
+                <option selected>Moldova</option>
+                <option>Romania</option>
+                <option>Ungaria</option>
+                <option>Altele</option>
+            </select>
+        </fieldset>
+
+        <br/>
+        <input type="submit" value="Transmite" />
+    </form>
+
+</body>
+
+</html>
