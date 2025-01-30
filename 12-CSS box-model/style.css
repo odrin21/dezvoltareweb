@@ -1,0 +1,56 @@
+.d1 {
+    /* dashed dotted solid double groove */
+    border: 2px solid red;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.d2 {
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px;
+
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto; /* centrare (randul 22-23) aici cutiuta o pune la centru */
+
+    text-align: center; /* aici textul il pune la centru */
+
+    /* height: 70dvh; */
+
+    /* padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+    margin: 5px;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px; */
+
+    /* min-height: 400px;
+    max-height: 800px; */
+    /* max-width: 550px;
+    min-width: 100px; */
+
+
+    /* border-radius: 50%; cerc */
+}
+
+.s1 {
+    border: 2px solid green;
+}
+
+.s2 {
+    border: 2px solid brown;
+}

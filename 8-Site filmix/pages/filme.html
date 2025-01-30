@@ -15,23 +15,24 @@
 
     <link rel="icon" href="../images/icon.png" />
     <link rel="stylesheet" href="../style.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body bgcolor="ededed">
 
-    <!--zona header-->
-    <table align="center" cellspacing="25">
-        <tr>
-            <th><a href="../index.html">HOME</a></th>
-            <th><a href="filme.html">FILME</a></th>
-            <th><a href="contacte.html">CONTACTE</a></th>
-        </tr>
-    </table>
+    <div class="header container">
+        <a href="../index.html">HOME</a>
+        <a href="filme.html">FILME</a>
+        <a href="contacte.html">CONTACTE</a>
+    </div>
 
     <hr />
 
     <h1>🔝TOP Filme
     </h1>
+
 
     <table align="center" cellpadding="15" border="1" cellspacing="0">
         <tr>
@@ -43,7 +44,8 @@
         <tr align="center">
             <td>The Prestige</td>
             <td><img height="200" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg"></td>
-            <td>⭐⭐⭐☆</td>
+            <td><i id="star" class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></td>
             <td><iframe width="100%" height="200" src="https://www.youtube.com/embed/RLtaA9fFNXU?si=rq0G0Ik6sCzFVLEy"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -52,7 +54,9 @@
         <tr align="center">
             <td>T-34</td>
             <td><img src="https://upload.wikimedia.org/wikipedia/en/0/0e/T-34_%28film%29.jpeg"></td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td><i id="star" class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i></td>
             <td><iframe width="100%" height="200" src="https://www.youtube.com/embed/D1UDvi5xL9w?si=ShUEMvMjYpDw8N4M"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -62,7 +66,9 @@
             <td>Fight Club</td>
             <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5rkKTG2JFWq_FiFZnIkDhQ_ZPqYAPHYqAw&s">
             </td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td><i id="star" class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i></td>
             <td><iframe width="100%" height="200" src="https://www.youtube.com/embed/dfeUzm6KF4g?si=yyxTlf1mVfBnH5H2"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -72,7 +78,9 @@
             <td>Gladiator</td>
             <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-rAnpCrP0jqKWBWf12oa1_P2lADNinE3Ug&s">
             </td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td><i id="star" class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i><i id="star" class="fa-solid fa-star"></i><i id="star"
+                    class="fa-solid fa-star"></i></td>
             <td><iframe width="560" height="315"
                     src="https://www.youtube.com/embed/P5ieIbInFpg?si=mIP4JZYPse38_hIq"></iframe></td>
         </tr>
@@ -84,16 +92,16 @@
     <center>
         <h2>Discută ultimul top:</h2>
 
-        <div class="fb-comments" data-order-by="reverse_time" data-href="http://tekwill.online/odrin">
-
-        </div>
+        <div class="fb-comments" data-order-by="reverse_time" data-href="http://tekwill.online/odrin"></div>
     </center>
 
     <br />
     <hr />
 
 
-    <h4>© FILMIX-Jentimir Odrin - 2025</h4>
+    <div class="endpr">
+        <h4>© FILMIX-Jentimir Odrin - 2025</h4>
+    </div>
 
     <script>
         (function (d, s, id) {

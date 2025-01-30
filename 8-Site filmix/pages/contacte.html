@@ -15,49 +15,47 @@
 
     <link rel="icon" href="../images/icon.png" />
     <link rel="stylesheet" href="../style.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body bgcolor="ededed">
 
-    <!--zona header-->
-    <table align="center" cellspacing="25">
-        <tr>
-            <th><a href="../index.html">HOME</a></th>
-            <th><a href="filme.html">FILME</a></th>
-            <th><a href="contacte.html">CONTACTE</a></th>
-        </tr>
-    </table>
+    <div class="header container">
+        <a href="../index.html">HOME</a>
+        <a href="filme.html">FILME</a>
+        <a href="contacte.html">CONTACTE</a>
+    </div>
 
-    <hr />
+    <div class="info">
+        <h1><i class="fa-solid fa-phone"></i>Contacte
+        </h1>
 
+        <b>Adresa:</b>mun. Chsiniau, Str. Studentilor 9/11
+        <br /><br />
+        <b>Telefon:</b><a href="tel:+37378000001">+373 780 000 01</a>
+        <br /><br />
+        <b>E-mail:</b><a href="mailto:filmix@gmail.com">filmix@gmail.com</a>
+        <br /><br />
+        <b>Program:</b>Lu-Vi. 09:00 - 18:00
 
-    <h1>📞Contacte
-    </h1>
+    </div>
 
-    <b>Adresa:</b>mun. Chsiniau, Str. Studentilor 9/11
-    <br /><br />
-    <b>Telefon:</b><a href="tel:+37378000001">+373 780 000 01</a>
-    <br /><br />
-    <b>E-mail:</b><a href="mailto:filmix@gmail.com">filmix@gmail.com</a>
-    <br /><br />
-    <b>Program:</b>Lu-Vi. 09:00 - 18:00
+    <div class="bottom">
 
+        <form method="post" action="https://sheetdb.io/api/v1/j8ip5jiwg3o3e" autocomplete="on">
+            <fieldset>
+                <legend>Datele Contului</legend>
+                <label for="film">Denumirea filmului</label>
+                <span class="film"><input name="data[film]" required type="text" id="film" /></span>
+                <label for="link">Link trailer</label>
+                <span><input name="data[link]" required type="text" id="link" /></span>
+            </fieldset>
 
+    </div>
 
-    <br />
-    <hr />
-
-    <form method="post" action="https://sheetdb.io/api/v1/j8ip5jiwg3o3e" autocomplete="on">
-        <fieldset>
-            <legend>Datele Contului</legend>
-            <label for="film">Denumirea filmului</label>
-            <br />
-            <input name="data[film]" required type="text" id="film" />
-            <br /><br />
-            <label for="link">Link trailer</label>
-            <br />
-            <input name="data[link]" required type="text" id="link" />
-        </fieldset>
+    <div class="description">
 
         <fieldset>
             <legend>Scurta descriere</legend>
@@ -66,11 +64,15 @@
         </fieldset>
         <br />
         <input type="submit" value="Transmite" />
-    </form>
+        </form>
 
+    </div>
 
+    <div class="endpr">
 
-    <h4>© FILMIX-Jentimir Odrin - 2025</h4>
+        <h4>© FILMIX-Jentimir Odrin - 2025</h4>
+
+    </div>
 
 
 
