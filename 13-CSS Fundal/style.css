@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-color: #dcdcdc;
+    background-image: linear-gradient(#000000aa, #000000), url("https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    color: beige;
+    height: 100dvh;
+
+    /* background-color: #ff4e00; */
+
+    /* background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+    
+
+
+    /* background-color: #2b4162;
+    background-image: radial-gradient( #2b4162 0%, #12100e 74%); */
+    
+    /* background-image: linear-gradient(to right, #464646, white); */
+
+    background-repeat: no-repeat;
+    background-size: cover; /* incearca sa se extinda tot ecranul, va acoperi tot ecranul*/
+    background-position: 20% 30%;/* prima axa X, a doua axa Y*/
+    font-size: 18px;
+    line-height: 140%;
+    font-family: Garamond;
+}
